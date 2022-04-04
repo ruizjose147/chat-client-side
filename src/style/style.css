@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 90%;
+  color:rgb(71, 55, 55);
+  background-color:rgba(107, 208, 255, 0.329);
+  ; 
+}
+
+.bg-dark {
+  padding: 14px;
+  background:rgb(28, 169, 235);
+  background: linear-gradient(to right, #e1d4e9c0, #e0dfe2);
+}
+
+.chat-area, .home {
+  margin-top: 60px;
+}
+
+.chat-area {
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.chat-area .chat-bubble {
+  background-color: rgba(107, 255, 218, 0.329);
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.chat-bubble .chat-time {
+  font-size: 12px;
+  color: #000000;
+  text-align: right;
+}
+
+.chat-area .chat-bubble.current-user {
+  margin-left: auto;
+  background-color: rgba(145, 251, 255, 0.329);
+}
+
+.jumbotron {
+  background: rgba(116, 209, 252, 0.329);  
+  background: -webkit-linear-gradient(to right, #9ea8d3, #73f7de); 
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+  color: rgb(223, 221, 221);
+}
+
+.form-control {
+  width: 60%;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+
+.btn-submit {
+  background-color: #7fdb83cb;
+  color: rgb(247, 238, 238);
+}
+
+@media (max-width: 692px) {
+	.titleWelcome h2 {
+		line-height: 1.45;
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 492px) {
+	.titleWelcome h2 {
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 406px) {
+	.titleWelcome h2 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 360px) {
+	.titleWelcome h2 {
+		font-size: 50px;
+	}
+}
+
+.btn-signin{
+  background: #171515;
+  margin-right: 12px;
+}
+
+.btn-google{
+    background: rgba(107, 255, 248, 0.911);
+    margin-right: 12px;
+    color: white;
+  }
+
+.form-signin input{
+  margin-bottom: 12px;
+}
+
+.btn-account{
+    display: inline-block;
+    margin-right: 12px;
+    background: #6c3feb;
+    border: none;
+}
+
+.btn-header{
+  background: #2d143d;
+  margin-left: 12px;
+}
+
+.form-register input{
+  margin-bottom: 18px;
+}
